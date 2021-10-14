@@ -1,0 +1,32 @@
+.commentForm {
+  border: 1px solid gainsboro;
+  padding: 10px;
+}
+.comment {
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  padding-left: 25px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+.commentAuthor {
+  font-size: large;
+  font-weight: 600;
+}
+.commentAuthor::before {
+  content: 'User: ';
+  font-weight: 100;
+}
+.commentAuthor::after {
+  content: ', commented:';
+  font-weight: 100;
+}
+.commentText {
+  color: rgb(102, 102, 102);
+  padding-left: 10px;
+}
+.commentText::before {
+  content: '';
+}

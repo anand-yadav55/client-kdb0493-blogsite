@@ -1,0 +1,33 @@
+header {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  width: 100%;
+  align-items: flex-end !important;
+  justify-content: center;
+  position: sticky;
+  top: -70px;
+}
+@media screen and (max-width: 600px) {
+  .control-btn {
+    display: block;
+    /* position: unset; */
+  }
+  .logo {
+    display: block;
+  }
+  header {
+    /* display: flex-row; */
+
+    flex-direction: row;
+  }
+}
+.control-btn {
+  display: inline-flex;
+  align-items: baseline;
+  position: absolute;
+  right: 0;
+  margin: 0 5px 0 5px;
+}
+.btn {
+  margin: 5px !important;
+}
